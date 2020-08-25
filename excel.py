@@ -4,6 +4,7 @@ from openpyxl.chart import BarChart, Reference
 #Load excel file which you want edit
 work_book = xl.load_workbook('transactions.xlsx')
 
+#Select sheet from excel commented one also works
 sheet = work_book['Sheet1']
 # cell = sheet['a1']
 # cell = sheet.cell(1, 1)
